@@ -14,6 +14,8 @@ py-chat-room uses sub processing to create multiple chat rooms
 
 py-chat-room has a simple username login / creation which also includes user inbox emailing system 
 
+scroll to the bottom for a video demo of the program 
+
 
 ***
 
