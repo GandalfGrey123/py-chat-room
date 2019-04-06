@@ -20,7 +20,10 @@ Demo --> * Scroll to the bottom for a video link demo of this program *
 
 
 
-Code snippet - main essential code 
+Snippet - main essential showing TCP connection handling
+------
+
+> this is the main entry point and approach used by the server and chat room programs , they use the `select` function from the python `select` module to handle incomming TCP conenctions and messages 
 
 ```python
 def run_server(port):
