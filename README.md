@@ -4,11 +4,15 @@
 
 ## Brief summary
 
-This is a simply chat program written in python 
+This is a simple chat program written in python
+
+####  implementation brief
 
 py-chat-room implements asynchronous IO to handle chat messaging and multiple user connections
 
 py-chat-room uses sub processing to create multiple chat rooms 
+
+implements a simple username creation and user inbox email system using text files
 
 
 ***
@@ -30,11 +34,10 @@ py-chat-room uses sub processing to create multiple chat rooms
 
 ## Recommended:
 	
-	* 
+	
 	Use long height for the Client terminal screen (output and menu can be large)
 
-
-	* 
+	
 	you can create your own account or use test accounts ... 
 
 	test user accounts
