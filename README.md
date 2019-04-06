@@ -17,6 +17,44 @@ py-chat-room has a simple username login / creation which also includes user inb
 > scroll to the bottom for a video demo of the program 
 
 
+
+
+
+```python
+def run_server(port):
+
+	server_sock.bind(( HOST_IP,port ))
+	server_sock.listen()
+	ports_in_use.append(port)
+
+	while True:
+		readers, _, _ = select.select(reader_fds,[],[])
+
+		for sock in readers:
+			
+			#New connection
+			if sock is server_sock:				
+				print("Recieving new connection .. ")			
+				conn, addr = server_sock.accept()
+				reader_fds.append(conn)
+
+				conn.send("\n\n Welcome to the server!".encode('utf8'))				 
+				break
+			
+			#Serve a connected client
+			else:
+				for fds in reader_fds[3:]:
+					if sock.fileno() == fds.fileno():
+						next_msg = fds.recv(SOCKET_BUFFER_SIZE).decode('utf8')
+						handle_user_request(fds,next_msg)
+```						
+
+
+
+
+
+
+
 ***
 
 ## Installtion / Execution
