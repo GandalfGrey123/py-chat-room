@@ -6,13 +6,13 @@
 
 This is a simple chat program written in python
 
-####  implementation brief
+####  features & implementation , brief
 
 py-chat-room implements asynchronous IO to handle chat messaging and multiple user connections
 
 py-chat-room uses sub processing to create multiple chat rooms 
 
-implements a simple username creation and user inbox email system using text files
+py-chat-room has a simple username login / creation which also includes user inbox emailing system 
 
 
 ***
