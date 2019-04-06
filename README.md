@@ -53,6 +53,6 @@ py-chat-room has a simple username login / creation which also includes user inb
 
 A quick demonstration of multiple user login and chatrooms being handled simultaneously 
 
-[![IMAGE ALT TEXT HERE](https://www.youtube.com/watch?v=sMmpfk4xrHU/0.jpg)](https://www.youtube.com/watch?v=sMmpfk4xrHU)
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/sMmpfk4xrHU/0.jpg)](https://www.youtube.com/watch?v=sMmpfk4xrHU)
 
 
