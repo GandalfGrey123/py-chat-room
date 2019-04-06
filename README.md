@@ -61,7 +61,7 @@ def run_server(port):
 
 ***
 
-## Installtion / Execution
+## Installation / Execution
 
 #### Required install
 	must install python3
