@@ -15,8 +15,6 @@ import string
 from resources.users.user import User
 from resources.paths.path_master import *
 
-
-
 HOST_IP = "localhost"
 DEFAULT_PORT = 3000
 SOCKET_BUFFER_SIZE = 1000
@@ -87,16 +85,6 @@ def login_verify(username,password):
 			return True
 	db.close()
 	return False
-
-
-
-
-
-
-
-
-
-
 
 
 
