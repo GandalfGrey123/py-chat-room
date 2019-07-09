@@ -6,7 +6,7 @@ class ServerConnection:
 		self.host_name_ip = host_name_ip
 		self.main_sock = None
    
-   #test timeout tolerance is 10 seconds
+    #test timeout tolerance is 10 seconds
 	def test_connection(self):
 		sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		sock.settimeout(10)
